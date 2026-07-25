@@ -1,4 +1,4 @@
-# This repo provides a layout for password hashing, hash identifying, and tools to decrypt hashes
+## This repo provides a layout for password hashing, hash identifying, and tools to decrypt hashes
 
 ## Symmetric Encryptions
 Data Encryption Standard (DES): uses a 56-bit key. *deprecated*
@@ -15,7 +15,7 @@ gpg --full-gen-key
 #### Sample Hashing using Argon2
 echo -n "Password" | argon2 "Random_Salt"
 
-### hascat type list
+### hashcat type list
 https://hashcat.net/wiki/doku.php?id=example_hashes
 
 ### Online Rainbow Tables
